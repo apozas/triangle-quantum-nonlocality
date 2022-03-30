@@ -1,5 +1,5 @@
 # Code for
-# ......
+# Proofs of network quantum nonlocality aided by machine learning
 # arXiv:2203......
 #
 # Authors: Alejandro Pozas-Kerstjens
