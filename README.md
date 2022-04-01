@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6406666.svg)](https://doi.org/10.5281/zenodo.6406666)
+
 ## Code to accompany *[Proofs of network quantum nonlocality aided by machine learning](https://www.arxiv.org/abs/2203.16543)*
 #### Alejandro Pozas-Kerstjens, Nicolas Gisin, and Marc-Olivier Renou
 
