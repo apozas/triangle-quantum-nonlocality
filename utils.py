@@ -1,6 +1,6 @@
 # Code for
 # Proofs of network quantum nonlocality aided by machine learning
-# arXiv:2203......
+# arXiv:2203.16543
 #
 # Authors: Alejandro Pozas-Kerstjens
 #
@@ -51,7 +51,7 @@ class TriangleInflationLevel2(object):
         positive and summing to 1, and the symmetries derived from the
         invariance under permutation of copies of the sources. This is, it
         implements the constraints described in Eqs. (C1), (C2) and (C3) in
-        arXiv:2203......
+        arXiv:2203.16543
         '''
         # Positivity constraints
         np.fill_diagonal(self.LPA, 1)
@@ -108,7 +108,7 @@ class TriangleInflationLevel2(object):
         relate the probability distribution in the inflation to the original,
         that are at most polynomials of the same order of the inflation. This
         is, it adds the "hierarchy constraints" described by Eq. (C4) in
-        arXiv:2203....... Optionally it generates an abstract values
+        arXiv:2203.16543. Optionally it generates an abstract values
         vector, which is useful for deriving nonlocality witnesses at a later
         stage.
 
@@ -146,7 +146,7 @@ class TriangleInflationLevel2(object):
         relate the probability distribution in the inflation to the original,
         that involve polynomials of order higher than the inflation level.
         This is, it adds the "higher-order constraints" described in Eq. (C5) in
-        arXiv:2201.......
+        arXiv:2203.16543.
 
         :param distribution: Probability distribution under test.
         :type distribution: numpy.array
@@ -179,7 +179,7 @@ class TriangleInflationLevel2(object):
         relate the probability distribution in the inflation to the original,
         that are at most polynomials of the same order of the inflation. This
         is, it adds the "hierarchy constraints" described in Eq. (C6) in
-        arXiv:2201....... Optionally it generates an abstract coefficient
+        arXiv:2203.16543. Optionally it generates an abstract coefficient
         matrix, which is useful for deriving nonlocality witnesses at a later
         stage.
 
@@ -261,10 +261,10 @@ class TriangleInflationLevel2(object):
 def RGB4_two_outcomes(u, FAB, FAC, FBC, FABC, t, dtype='float64'):
     '''
     The family of binary-outcome probability distributions q_u^{t}(i,j,k)
-    described in Eq. (3) of arXiv:2203.......
+    described in Eq. (3) of arXiv:2203.16543.
 
     :param u: The value of the parameter u, inherited from the four-outcome
-              family of distributions in Eq. (2) in arXiv:2203.......
+              family of distributions in Eq. (2) in arXiv:2203.16543.
     :type u: float (1/sqrt(2) <= u <= 1)
     :param FAB: The value of the free parameter F_AB.
     :type FAB: float
@@ -302,10 +302,10 @@ def RGB4_two_outcomes(u, FAB, FAC, FBC, FABC, t, dtype='float64'):
 
 def generate_polytope(u, FAB, FAC, FBC, FABC):
     '''Provides the inequalities describing the polytope of valid probability
-    distributions in Eqs. (A1) of arXiv:2203......, for the given value of u.
+    distributions in Eqs. (A1) of arXiv:2203.16543, for the given value of u.
 
     :param u: The value of the parameter u, inherited from the four-outcome
-              family of distributions in Eq. (2) in arXiv:2203.......
+              family of distributions in Eq. (2) in arXiv:2203.16543.
     :type u: float (1/sqrt(2) <= u <= 1)
     :param FAB: Symbol representing the free parameter F_AB.
     :type FAB: sympy.Symbol
@@ -517,7 +517,7 @@ def ineq_intersects_faces(ineq, u, t):
     :param ineq: The certificate of infeasibility obtained from Frakas' lemma
     :type ineq: sympy.core.expr.Expr
     :param u: The value of the parameter u, inherited from the four-outcome
-              family of distributions in Eq. (2) in arXiv:2203.......
+              family of distributions in Eq. (2) in arXiv:2203.16543.
     :type u: float (1/sqrt(2) <= u <= 1)
     :param t: The value of the parameter t, which describes the orientation of
               the three excitations in the local model for the coarse-grained

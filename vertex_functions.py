@@ -1,6 +1,6 @@
 # Code for
 # Proofs of network quantum nonlocality aided by machine learning
-# arXiv:2203......
+# arXiv:2203.16543
 #
 # Authors: Alejandro Pozas-Kerstjens
 #
@@ -13,7 +13,7 @@ def get_polytope_vertices(u):
     '''For a value of u, obtain the vertices of the feasible poltope.
 
     :param u: The value of the parameter u, inherited from the four-outcome
-              family of distributions in Eq. (2) in arXiv:2203.......
+              family of distributions in Eq. (2) in arXiv:2203.16543.
     :type u: float (1/sqrt(2) <= u <= 1)
 
     :returns funs: list of vertex functions.

@@ -20,13 +20,13 @@ WindowFrame->Normal*)
 Notebook[{
 Cell[TextData[{
  "This notebook computes analytically the expressions of the witnesses of \
-triangle nonlocality obtained in arXiv:2203...... in \
+triangle nonlocality obtained in arXiv:2203.16543 in \
 \[OpenCurlyDoubleQuote]Bell inequality\[CloseCurlyDoubleQuote] form for ",
  StyleBox["symmetric",
   FontWeight->"Bold"],
  ", tripartite, binary-outcome distributions. Such model is proven not to \
 exist if an associated linear program, given in Appendix D of \
-arXiv:2203......, is infeasible. If the linear program is expressed as ",
+arXiv:2203.16543, is infeasible. If the linear program is expressed as ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -185,7 +185,7 @@ create the matrix ",
     FontWeight->"Bold"], TraditionalForm]],ExpressionUUID->
   "74b76e6e-8ee7-434c-9f4e-821f4ca52b6c"],
  " in the linear program. These are generated following the procedure of \
-Appendix D in arXiv:2203......."
+Appendix D in arXiv:2203.16543."
 }], "Text",
  CellChangeTimes->{{3.8507970899776773`*^9, 3.850797189799727*^9}, {
    3.851249644027876*^9, 3.8512496551166067`*^9}, 3.857354750771179*^9, 

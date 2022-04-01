@@ -1,6 +1,6 @@
 # Code for
 # Proofs of network quantum nonlocality aided by machine learning
-# arXiv:2203......
+# arXiv:2203.16543
 #
 # Authors: Alejandro Pozas-Kerstjens
 #
@@ -46,7 +46,7 @@ def evaluate_symbolic(LPA, LPb,
     :param b_values: Numerical values of the symbolic elements in the vector LPb
     :type b_values: numpy.array
     :param u: The value of the parameter u, inherited from the four-outcome
-              family of distributions in Eq. (2) in arXiv:2203.......
+              family of distributions in Eq. (2) in arXiv:2203.16543.
     :type u: float (1/sqrt(2) <= u <= 1)
     :param t: The value of the parameter t, which describes the orientation of
               the three excitations in the local model for the coarse-grained
@@ -108,7 +108,7 @@ def compute_new_u(y, A, b, u, t, direction):
     :param b: The vector of coefficients of the LP A.x >= b.
     :type b: numpy.array
     :param u: The value of the parameter u, inherited from the four-outcome
-              family of distributions in Eq. (2) in arXiv:2203.......
+              family of distributions in Eq. (2) in arXiv:2203.16543.
     :type u: float (1/sqrt(2) <= u <= 1)
     :param t: The value of the parameter t, which describes the orientation of
               the three excitations in the local model for the coarse-grained
@@ -165,7 +165,7 @@ def save_to_json(expression, expression_evaluation, u, expression_type):
                                   triangle-local model.
     :type expression_evaluation: float
     :param u: The value of the parameter u, inherited from the four-outcome
-              family of distributions in Eq. (2) in arXiv:2203.......
+              family of distributions in Eq. (2) in arXiv:2203.16543.
     :type u: float (1/sqrt(2) <= u <= 1)
     :param filename: The name of the file to be saved.
     :type filename: str
