@@ -32,7 +32,7 @@ Files:
 
 If you would like to cite this work, please use the following format:
 
-A. Pozas-Kerstjens, N. Gisin, and M.-O. Renou, _Proofs of network quantum nonlocality aided by machine learning_, arXiv:2203.16543
+A. Pozas-Kerstjens, N. Gisin, and M.-O. Renou, _Proofs of network quantum nonlocality in continuous families of distributions_, Phys. Rev. Lett. 130, 090201 (2023), arXiv:2203.16543
 
 ```
 @article{pozaskerstjens2022triangle,
