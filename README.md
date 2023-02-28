@@ -1,9 +1,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6406666.svg)](https://doi.org/10.5281/zenodo.6406666)
 
-## Code to accompany *[Proofs of network quantum nonlocality aided by machine learning](https://www.arxiv.org/abs/2203.16543)*
+## Code to accompany *[Proofs of network quantum nonlocality in continuous families of distributions](https://www.arxiv.org/abs/2203.16543)*
 #### Alejandro Pozas-Kerstjens, Nicolas Gisin, and Marc-Olivier Renou
 
-This is a repository containing the computational appendix of the article "*Proofs of network quantum nonlocality aided by machine learning*. Alejandro Pozas-Kerstjens, Nicolas Gisin, and Marc-Olivier Renou. [arXiv:2203.16543](https://www.arxiv.org/abs/2203.16543)." It provides the codes for setting up and solving the inflation problems that identify the distributions ![](https://latex.codecogs.com/svg.latex?q_u%5E%7Bt%3D-1%7D) as not admitting triangle-local models for the range ![](https://latex.codecogs.com/svg.latex?0.7504%5Cleq&space;u%5Cleq0.8101).
+This is a repository containing the computational appendix of the article "*Proofs of network quantum nonlocality in continuous families of distributions*. Alejandro Pozas-Kerstjens, Nicolas Gisin, and Marc-Olivier Renou. [Phys. Rev. Lett. 130, 090201 (2023)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.090201), [arXiv:2203.16543](https://www.arxiv.org/abs/2203.16543)." It provides the codes for setting up and solving the inflation problems that identify the distributions ![](https://latex.codecogs.com/svg.latex?q_u%5E%7Bt%3D-1%7D) as not admitting triangle-local models for the range ![](https://latex.codecogs.com/svg.latex?0.7504%5Cleq&space;u%5Cleq0.8101).
 
 The code is written in Python and Mathematica.
 
@@ -35,10 +35,20 @@ If you would like to cite this work, please use the following format:
 A. Pozas-Kerstjens, N. Gisin, and M.-O. Renou, _Proofs of network quantum nonlocality aided by machine learning_, arXiv:2203.16543
 
 ```
-@misc{pozaskerstjens2022triangle,
-author = {Pozas-Kerstjens, Alejandro and Gisin, Nicolas and Renou, Marc-Olivier},
-title = {{Proofs of network quantum nonlocality aided by machine learning}},
-eprint = {2203.16543},
-archivePrefix={arXiv}
+@article{pozaskerstjens2022triangle,
+  title = {Proofs of Network Quantum Nonlocality in Continuous Families of Distributions},
+  author = {Pozas-Kerstjens, Alejandro and Gisin, Nicolas and Renou, Marc-Olivier},
+  journal = {Phys. Rev. Lett.},
+  volume = {130},
+  issue = {9},
+  pages = {090201},
+  numpages = {6},
+  year = {2023},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.130.090201},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.130.090201},
+  archivePrefix = {arXiv},
+  eprint = {2203.16543}
 }
 ```

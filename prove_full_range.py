@@ -1,5 +1,6 @@
 # Code for
-# Proofs of network quantum nonlocality aided by machine learning
+# Proofs of network quantum nonlocality in continuous families of distributions
+# Phys. Rev. Lett. 130, 090201 (2023)
 # arXiv:2203.16543
 #
 # Authors: Alejandro Pozas-Kerstjens
